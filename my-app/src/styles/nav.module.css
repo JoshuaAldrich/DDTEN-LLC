@@ -14,3 +14,7 @@
 .link:first-child {
   margin-right: auto;
 }
+
+.image {
+  max-width: 50px;
+}

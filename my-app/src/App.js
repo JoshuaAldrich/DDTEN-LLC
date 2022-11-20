@@ -1,3 +1,10 @@
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Products from "./components/Products";
+import Services from "./components/Services";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -17,7 +24,9 @@ const App = () => {
       </div>
       <article>
         <div className="mx-auto text-center">
-          <h3 className="fs-3">&copy DDTEN LLC</h3>
+          <h3 className="fs-3">
+            <span>©</span> DDTEN LLC
+          </h3>
 
           <div className="fs-6 text-decoration-none">
             <p>
@@ -28,9 +37,7 @@ const App = () => {
                 customerserviceddten@gmail.com
               </a>
             </p>
-            <p>
-              <a>1495 Seminola Blvd Ste 1023, Casselberry, FL 32707</a>
-            </p>
+            <p>1495 Seminola Blvd Ste 1023, Casselberry, FL 32707</p>
           </div>
         </div>
       </article>

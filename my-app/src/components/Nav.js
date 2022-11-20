@@ -1,23 +1,28 @@
 import { Link } from "react-router-dom";
 import classes from "../styles/nav.module.css";
+import ddTen from "../images/DDTEN.png";
 
 const Nav = () => {
   return (
     <nav className={classes.nav}>
       <Link className={classes.link} to="/">
-        Joshua Aldrich
+        DDTEN LLC
       </Link>
+      <img src={ddTen} alt="DDTEN Logo" className={classes.img} />
       <Link className={classes.link} to="/about">
-        About Me
+        About Us
       </Link>
       <Link className={classes.link} to="/projects">
         Projects
       </Link>
+      <Link className={classes.link} to="/products">
+        Products
+      </Link>
+      <Link className={classes.link} to="/services">
+        Services
+      </Link>
       <Link className={classes.link} to="/contact">
         Contact
-      </Link>
-      <Link className={classes.link} to="/resume">
-        Resume
       </Link>
     </nav>
   );

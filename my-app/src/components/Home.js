@@ -1,8 +1,15 @@
+import backgroundImg from "../images/eosMens2.jpg";
+
 const Home = () => {
   return (
     <div className="container">
       <div className="row text-center">
         <h2 className="col-7 mx-3 text-end">DDTEN LLC</h2>
+        <img
+          alt="Phenolic Stalls finished"
+          src={backgroundImg}
+          className="max-width= 100px height: 50px"
+        />
         <h3>Quality and Pricing that is unforgettable</h3>
         <p>
           Our commitment since inception is to provide customers with the best

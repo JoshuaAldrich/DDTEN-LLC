@@ -1,3 +1,3 @@
-const Services = () => {};
+const Products = () => {};
 
-export default Services;
+export default Products;
